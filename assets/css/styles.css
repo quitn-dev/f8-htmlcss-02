@@ -102,14 +102,13 @@ a {
 .hero-img {
   position: relative;
   display: flex;
-  width: 570px;
+  min-width: 570px;
   height: 685px;
 }
 
 .hero-img .main-image {
   width: 470px;
   height: 685px;
-  min-width: 100%;
   object-fit: cover;
   border-radius: 20px;
 }
@@ -117,7 +116,7 @@ a {
 .hero-img .courses-qty {
   position: absolute;
   bottom: 48px;
-  right: -100px;
+  right: 0px;
   min-width: 270px;
   height: 244px;
   border-radius: 12px;
@@ -162,7 +161,7 @@ a {
 }
 
 .hero-info {
-  margin: 64px 0 0 230px;
+  margin: 64px 0 0 130px;
 }
 
 .hero-info .title {
