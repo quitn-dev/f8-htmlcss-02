@@ -201,6 +201,10 @@ a {
   line-height: 64px;
 }
 
+.hero-info .actions .hero-btn:hover {
+  opacity: 0.7;
+}
+
 .hero-info .actions .play {
   margin-left: 28px;
   padding-top: 12px;
