@@ -32,6 +32,10 @@ body {
   line-height: 50px;
 }
 
+.btn:hover {
+  opacity: 0.9;
+}
+
 a {
   text-decoration: none;
 }
