@@ -8,5 +8,78 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: Poppins, Sen, sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ============= Common ============= */
+.content {
+  width: 1170px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 144px;
+  height: 50px;
+  text-align: center;
+  border-radius: 24.5px;
+  background: #171100;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ============= Header ============= */
+.header {
+  position: sticky;
+  top: -24px;
+  z-index: 1;
+  background: #fffcf4;
+  padding-top: 24px;
+}
+
+.header .navbar {
+  display: flex;
+  align-items: center;
+  padding: 12px 0px;
+}
+
+.navbar .list {
+  display: flex;
+  margin-left: 521px;
+  gap: 42px;
+}
+
+.navbar .list a {
+  color: #5f5b53;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.navbar .list a:hover {
+  color: #171100;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+.navbar .list a:hover::after {
+  display: block;
+  content: "";
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background: #171100;
+}
+
+.navbar .actions {
+  margin-left: auto;
 }
