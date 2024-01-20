@@ -87,3 +87,162 @@ a {
 .navbar .actions {
   margin-left: auto;
 }
+
+/* ============= Hero ============= */
+.hero {
+  padding: 64px 0 65px 0;
+  background: #fffcf4;
+  height: calc(100vh - 74px);
+}
+
+.hero .content {
+  display: flex;
+}
+
+.hero-img {
+  position: relative;
+  display: flex;
+  width: 570px;
+  height: 685px;
+}
+
+.hero-img .main-image {
+  width: 470px;
+  height: 685px;
+  min-width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.hero-img .courses-qty {
+  position: absolute;
+  bottom: 48px;
+  right: -100px;
+  min-width: 270px;
+  height: 244px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+  z-index: 1;
+}
+
+.hero-img .courses-content {
+  margin: 24px 0 0 24px;
+}
+
+.hero-img .row {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+  min-width: 188px;
+  height: 56px;
+}
+
+.hero-img .row .icon {
+  width: 48px;
+  height: 48px;
+}
+
+.hero-img .text {
+  margin-left: 16px;
+}
+
+.hero-img .text .number {
+  color: #5f5b53;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85;
+}
+
+.hero-img .text .courses-name {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.66;
+}
+
+.hero-info {
+  margin: 64px 0 0 230px;
+}
+
+.hero-info .title {
+  color: #171100;
+  font-family: "Sen", sans-serif;
+  font-size: 5.8rem;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: -1.16px;
+}
+
+.hero-info .desc {
+  margin-top: 22px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.66;
+}
+
+.hero-info .actions {
+  display: flex;
+  align-items: center;
+  margin-top: 38px;
+}
+
+.hero-info .actions .hero-btn {
+  min-width: 180px;
+  height: 64px;
+  border-radius: 32px;
+  background: #ffb900;
+  font-size: 1.8rem;
+  line-height: 64px;
+}
+
+.hero-info .actions .play {
+  margin-left: 28px;
+  padding-top: 12px;
+}
+
+.hero-info .actions .text {
+  margin-left: -2px;
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.66;
+}
+.hero-info .recent-qty {
+  margin-top: 48px;
+}
+
+.hero-info .recent-qty .desc {
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.66;
+}
+
+.hero-info .recent-qty .row {
+  display: flex;
+  gap: 28px;
+}
+
+.hero-info .recent-qty .quantity {
+  display: flex;
+  align-items: baseline;
+  margin-top: 18px;
+}
+
+.hero-info .quantity .number {
+  color: #171100;
+  font-family: Sen;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.22;
+}
+
+.hero-info .quantity .text {
+  margin-left: 12px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 30px;
+}
