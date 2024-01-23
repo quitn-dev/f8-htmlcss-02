@@ -258,14 +258,13 @@ a {
 /* ============= Courses ============= */
 .courses {
   margin-top: 38px;
-  padding: 162px;
+  padding: 162px 0 0 0;
 }
 
 .courses .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: rgb(163, 146, 201); */
 }
 
 .courses .row .sub-title {
@@ -390,3 +389,88 @@ a {
 .courses .item-info .book-btn {
   min-width: 118px;
 }
+
+/* ============= Feedback ============= */
+.feedback {
+  margin-top: 200px;
+  width: 100vw;
+  height: 380px;
+  background: #2e2100;
+}
+
+.feedback .content {
+  display: flex;
+  padding: 96px 0 96px;
+}
+
+.feedback .avatar {
+  width: 72px;
+  height: 72px;
+  max-width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback .name {
+  display: block;
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: Sen;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.41;
+}
+
+.feedback .job {
+  margin-top: 4px;
+  width: 159px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85;
+}
+
+.feedback .dots {
+  display: flex;
+  margin-top: 28px;
+  gap: 6px;
+}
+
+.feedback .dots a {
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background: #634700;
+}
+
+.feedback .dots a:hover,
+.feedback .dots a:focus {
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background: #ffb900;
+}
+
+.feedback .fb-content {
+  position: relative;
+  margin-left: 241px;
+  width: 770px;
+  height: 188px;
+}
+
+.feedback .fb-text {
+  position: absolute;
+  top: 28px;
+  left: 30px;
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.53;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ============= Next content ============= */
