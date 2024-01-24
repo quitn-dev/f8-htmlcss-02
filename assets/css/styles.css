@@ -38,7 +38,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #ffb900;
+  opacity: 0.7;
 }
 
 a {
@@ -97,7 +97,6 @@ a {
 .hero {
   padding: 64px 0 65px 0;
   background: #fffcf4;
-  height: calc(100vh - 74px);
 }
 
 .hero .content {
@@ -257,8 +256,8 @@ a {
 
 /* ============= Courses ============= */
 .courses {
-  margin-top: 38px;
-  padding: 162px 0 0 0;
+  margin-top: 80px;
+  padding-top: 120px;
 }
 
 .courses .row {
@@ -327,6 +326,7 @@ a {
   background-color: #fff;
   border-radius: 12px;
   border: 1px solid #e2dfda;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
 }
 
 .courses .list .item-img {
@@ -388,6 +388,10 @@ a {
 
 .courses .item-info .book-btn {
   min-width: 118px;
+}
+
+.courses .item-info .book-btn:hover {
+  background: #ffb900;
 }
 
 /* ============= Feedback ============= */
@@ -471,6 +475,82 @@ a {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+/* ============= Pricing ============= */
+.pricing {
+  margin-top: 80px;
+  padding-top: 120px;
+}
+
+.pricing .row-1 {
+  display: flex;
+  position: relative;
+  height: 438px;
+}
+
+.pricing .row-1 .images {
+  width: 270px;
+  height: 405px;
+  border-radius: 16px;
+}
+
+.pricing .row-1 .image-1 {
+  position: absolute;
+  top: 33px;
+  object-fit: cover;
+}
+
+.pricing .row-1 .image-2 {
+  position: absolute;
+  left: 300px;
+  object-fit: cover;
+}
+
+.pricing .row-1 .info {
+  position: absolute;
+  top: 58px;
+  left: 700px;
+}
+
+.pricing .sub-title {
+  color: #171100;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26;
+  letter-spacing: -0.76px;
+}
+
+.pricing .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.pricing .btn {
+  margin-top: 32px;
+  background: #ffb900;
+}
+
+.pricing .row-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.pricing .row-2 .info {
+  width: 570px;
+}
+
+.pricing .image-3 {
+  width: 470px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 /* ============= Next content ============= */
