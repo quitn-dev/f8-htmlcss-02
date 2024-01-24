@@ -286,33 +286,25 @@ a {
 
 .courses .row .icon {
   display: flex;
+  gap: 18px;
 }
 
-.courses .row .icon-left,
-.courses .row .icon-right {
+.courses .row .arrow {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
+  color: #ffb900;
+  background-color: #fff;
+  border: solid 1px #ffb900;
   border-radius: 50%;
 }
 
-.courses .row .icon-left {
-  background-color: #fff;
-  border: solid 1px #ffb900;
-}
-
-.courses .row .icon-right {
-  margin-left: 18px;
+.courses .row .arrow:hover {
+  color: #fff;
   background-color: #ffb900;
   border: solid 1px #fff;
-}
-
-.courses .row .arrow-left,
-.courses .row .arrow-right {
-  width: 6px;
-  height: 12px;
 }
 
 .courses .list {
